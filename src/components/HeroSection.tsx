@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
-import avatarPlaceholder from "@/assets/avatar-placeholder.png";
+import avatarPhoto from "@/assets/jelaswin.jpeg";
 
 const HeroSection = () => {
   return (
@@ -70,7 +70,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden gradient-border glow-primary">
               <img
-                src={avatarPlaceholder}
+                src={avatarPhoto}
                 alt="Jelaswin J - Developer portrait"
                 className="w-full h-full object-cover"
               />
