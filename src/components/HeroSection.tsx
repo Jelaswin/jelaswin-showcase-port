@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import avatarPlaceholder from "@/assets/avatar-placeholder.png";
 
 const HeroSection = () => {
@@ -38,6 +38,13 @@ const HeroSection = () => {
               className="px-7 py-3 rounded-xl border border-border text-foreground font-semibold hover:bg-muted transition-colors"
             >
               Get In Touch
+            </a>
+            <a
+              href="/resume.pdf"
+              download
+              className="px-7 py-3 rounded-xl border border-primary/40 text-primary font-semibold hover:bg-primary/10 transition-colors flex items-center gap-2"
+            >
+              <Download className="w-4 h-4" /> Resume
             </a>
           </div>
 
