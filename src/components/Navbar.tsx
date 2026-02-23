@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         <a href="#" className="font-heading text-xl font-bold gradient-text">
-          {"<Jelaswin />"}
+          Portfolio
         </a>
 
         {/* Desktop */}
