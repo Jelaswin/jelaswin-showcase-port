@@ -40,7 +40,7 @@ const HeroSection = () => {
               Get In Touch
             </a>
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="px-7 py-3 rounded-xl border border-primary/40 text-primary font-semibold hover:bg-primary/10 transition-colors flex items-center gap-2"
             >
