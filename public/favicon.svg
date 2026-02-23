@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background -->
+  <rect width="100" height="100" fill="#0a0e27"/>
+  
+  <!-- Terminal window frame -->
+  <rect x="10" y="10" width="80" height="80" rx="4" fill="none" stroke="#00ff41" stroke-width="2"/>
+  
+  <!-- Terminal header -->
+  <rect x="10" y="10" width="80" height="12" rx="4" fill="#1a1f3a"/>
+  <circle cx="16" cy="16" r="1.5" fill="#ff6b6b"/>
+  <circle cx="22" cy="16" r="1.5" fill="#ffd93d"/>
+  <circle cx="28" cy="16" r="1.5" fill="#00ff41"/>
+  
+  <!-- Command prompt -->
+  <text x="15" y="40" font-family="monospace" font-size="8" fill="#00ff41" font-weight="bold">$ hack</text>
+  
+  <!-- Code lines -->
+  <text x="15" y="52" font-family="monospace" font-size="6" fill="#00ff41">while(true)</text>
+  <text x="15" y="62" font-family="monospace" font-size="6" fill="#00ff41">&gt; create()</text>
+  
+  <!-- Blinking cursor effect -->
+  <rect x="49" y="62" width="1" height="6" fill="#00ff41" opacity="0.7"/>
+  
+  <!-- Glow effect -->
+  <rect x="10" y="10" width="80" height="80" rx="4" fill="none" stroke="#00ff41" stroke-width="0.5" opacity="0.3"/>
+</svg>
